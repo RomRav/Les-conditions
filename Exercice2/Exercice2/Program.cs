@@ -6,8 +6,7 @@ namespace Exercice2
     {
         static void Main(string[] args)
         {
-            bool finisher = true;
-            
+            bool finisher = true;          
             int userNumberAge;
             while (finisher)
             {
