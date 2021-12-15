@@ -6,6 +6,7 @@ namespace Exercice5
     {
         static void Main(string[] args)
         {
+			//Récupération de la saisie utilisateur et affichage d'une chaînede caractére en fonction.
             Console.WriteLine("Saisissez un mois:");
             string inputMonth = Console.ReadLine().ToLower();
             if (inputMonth == "janvier" || inputMonth == "février" || inputMonth == "mars")

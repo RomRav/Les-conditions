@@ -13,7 +13,9 @@ namespace Exercice4
             Console.WriteLine("Mot de passe:");
             string inputPwd = Console.ReadLine();
             bool pwdIdOK = false;
+			//Verifie que la saisie du mot de passe et de l'identifiant saisie correspond au mot de passe et identifiant.
             pwdIdOK = id == inputId && pwd == inputPwd;
+			//Affichage de chaîne de caractére en fonction du résultat de la verification du mot de passe et de l'identifiant à l'aide d'un switch.
             switch (pwdIdOK)
             {
                 case  true:

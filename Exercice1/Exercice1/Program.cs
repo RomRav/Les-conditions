@@ -6,6 +6,7 @@ namespace Exercice1
     {
         static void Main(string[] args)
         {
+			//Affichage de chaîne de caractére différent en fonction d'un booleain
             bool rainy = false;
             if (rainy)
             {
