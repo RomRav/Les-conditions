@@ -10,14 +10,19 @@ namespace Exercice4
             string pwd = "123";
             Console.WriteLine("Identifiant:");
             string inputId = Console.ReadLine();
-            Console.WriteLine("Mot de pass:");
+            Console.WriteLine("Mot de passe:");
             string inputPwd = Console.ReadLine();
-            if(id==inputId && pwd == inputPwd)
+            bool pwdIdOK = false;
+            pwdIdOK = id == inputId && pwd == inputPwd;
+            switch (pwdIdOK)
             {
-                Console.WriteLine("Bienvenue à la Manu.");
-            }else
-            {
-                Console.WriteLine("Mauvais identifiant ou mauvais mot de passe. ");
+                case  true:
+                    Console.WriteLine("Bienvenue à la Manu.");
+                    break;
+
+                case false:
+                    Console.WriteLine("Mauvais identifiant ou mauvais mot de passe. ");
+                    break;
             }
         }
     }
