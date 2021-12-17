@@ -6,17 +6,17 @@ namespace Exercice4
     {
         static void Main(string[] args)
         {
-            string id = "Yop";
-            string pwd = "123";
+            const string login = "Yop";
+            const string password = "123";
             Console.WriteLine("Identifiant:");
             string inputId = Console.ReadLine();
             Console.WriteLine("Mot de passe:");
             string inputPwd = Console.ReadLine();
-            bool pwdIdOK = false;
+            bool pwdIdOk = false;
 			//Verifie que la saisie du mot de passe et de l'identifiant saisie correspond au mot de passe et identifiant.
-            pwdIdOK = id == inputId && pwd == inputPwd;
+            pwdIdOk = login == inputId && password == inputPwd;
 			//Affichage de chaîne de caractére en fonction du résultat de la verification du mot de passe et de l'identifiant à l'aide d'un switch.
-            switch (pwdIdOK)
+            switch (pwdIdOk)
             {
                 case  true:
                     Console.WriteLine("Bienvenue à la Manu.");

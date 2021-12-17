@@ -12,7 +12,7 @@ namespace Exercice2
             while (finisher)
             {
 				//Demande de l'âge et récupération des données saisie
-                Console.WriteLine("Qu'elle est votre âge?:");
+                Console.WriteLine("Quel est votre âge?:");
                 string userStringAge = Console.ReadLine();
 				//Vérification que la saisie est bien convertible en entier.
                 if (int.TryParse(userStringAge, out userNumberAge))

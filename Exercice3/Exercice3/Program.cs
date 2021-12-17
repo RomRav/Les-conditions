@@ -51,16 +51,12 @@ namespace Exercice3
                         {
                             Console.WriteLine("La saisie n'est pas correct");
                         }
-                    }
-                    
+                    }   
                 }
                 else
                 {
                     Console.Write("La saisie n'est pas un nombre.");
                 }
-                
-                
-
             }
         }
     }
